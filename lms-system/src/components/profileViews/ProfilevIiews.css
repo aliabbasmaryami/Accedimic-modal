@@ -1,0 +1,114 @@
+.profileView-main {
+  width: 100%;
+  padding: 10px;
+}
+.profileView-main-child-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.profile-main-child-2 h2 {
+  color: var(--Light-Text-Primary, #1c1c1e);
+  font-size: 22.232px;
+  font-weight: 500;
+}
+.profile-main-child-2 p {
+  color: var(--Light-Text-Secondary, rgba(28, 28, 30, 0.72));
+  font-size: 12.969px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.profileView-main-child-3 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.profileView-main-child-3 p {
+  margin-bottom: 0px;
+  color: black;
+}
+.profileView-main-child-3 span {
+  color: #24d164;
+}
+.MdOutlinePerson-profile {
+  color: gray;
+  width: 20px;
+  height: 20px;
+}
+
+.profileView-main-child-4 .btn-success {
+  color: var(--new, #00afef);
+  font-size: 14.821px;
+  font-weight: 600;
+  background-color: transparent;
+  border-color: #00afef;
+  border: 1px solid;
+}
+.profileView-main-child-4 .btn-success:hover {
+  background-color: #fff;
+  color: #00afef;
+  border: 1px solid;
+}
+.dropdown-item {
+  color: #00afef;
+  background-color: white;
+}
+.btn.show {
+  background-color: #fff !important;
+  color: #00afef !important;
+}
+
+.profileView-main-child-4 {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 0px;
+}
+.profileView-main-child-4 img {
+  display: flex;
+  width: 75px;
+  height: 75px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.profile-main-child-5 h4 {
+  color: var(--Light-Text-Primary, #1c1c1e);
+  font-weight: 500;
+  font-size: 14.821px;
+}
+.profile-main-child-6 {
+  display: flex;
+  gap: 7px;
+  color: var(--Light-Text-Secondary, rgba(28, 28, 30, 0.72));
+  font-size: 11.116px;
+  font-weight: 400;
+}
+.profile-main-child-6 p {
+  color: var(--Light-Text-Secondary, rgba(28, 28, 30, 0.72));
+  font-size: 11.116px;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.profile-main-child-5 button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--new, #00afef);
+  font-size: 14.821px;
+  font-weight: 600;
+  background-color: transparent;
+  border: none;
+}
+/*  */
+@media (max-width:602px) {
+  .profileView-main-child-1 {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+  .profile-main-child-2 h2{
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,347 @@
+.side-nav-tabs {
+  display: flex;
+}
+
+.tabs {
+  width: 150px;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tab {
+  cursor: pointer;
+  padding: 8px;
+  margin-bottom: 5px;
+  transition: background-color 0.3s;
+}
+
+.tab:hover {
+    background: rgba(0, 175, 239, 0.15);
+}
+
+.tab.active {
+    background: rgba(0, 175, 239, 0.15);
+    border-right: 2px solid #00afef;
+}
+
+.tab-content {
+  padding: 10px;
+}
+.chat-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  /* justify-content: center; */
+}
+.sideBar {
+  width: 100%;
+  display: flex;
+}
+.sideBar .firstTab {
+  width: 25%;
+}
+.sideBar .firstTab .btnAndSearch .Buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  margin: 16px 0px 55px 0px;
+}
+.sideBar .firstTab .btnAndSearch .Buttons button {
+  padding: 7px 18px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: var(--new, #00afef);
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+}
+.sideBar .firstTab .btnAndSearch .search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid var(--Black-1, #cfd3d4);
+  /* background: #fff; */
+  gap: 5px;
+}
+.sideBar .firstTab .btnAndSearch .search svg{
+    color: #130F26;
+}
+.sideBar .firstTab .btnAndSearch .search input{
+    border: none;
+    padding: 10px 0px;
+    width: 90%;
+    outline: none;   
+}
+.sideBar .firstTab .btnAndSearch h3{
+    color: var(--Black-90, #2C2D33);
+font-size: 20px;
+font-weight: 500;
+margin: 1rem 0px;
+}
+.userMassage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.userMassage img{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid var(--Stroke, #F1F3F9);
+}
+.userMassage .userInfo{
+    display: flex;
+    flex-direction: column;
+}
+.userMassage .userInfo h2{
+    color: var(--Black-60, #45464E);
+font-size: 16px;
+font-weight: 500;
+}
+.userMassage .userInfo .time{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.userMassage .userInfo .time p{
+    color: var(--Black-30, #8B8D97);
+font-size: 14px;
+font-weight: 400;
+margin: 0px;
+}
+.userMassage .userInfo .time span{
+    color: var(--Black-30, #8B8D97);
+font-size: 12px;
+font-weight: 400;
+}
+.userMassages{
+    width: 75%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0, 175, 239, 0.05);
+    overflow-y: scroll;
+}
+.userMassageBox{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px;
+}
+.userMassageBox .userCall{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.userMassageBox .userCall .parent{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+}
+.userMassageBox .userCall .parent img{
+    width: 35.717px;
+height: 36px;
+border-radius: 36px;
+cursor: pointer;
+}
+.userMassageBox .userCall .parent h3{
+    color: #000;
+font-size: 16px;
+margin: 0px;
+font-weight: 500;
+cursor: pointer;
+}
+.userMassageBox .userCall .parent h3 span{
+    color: rgba(0, 0, 0, 0.62);
+font-size: 13px;
+font-weight: 400;
+}
+.userMassageBox .userCall .parent  p{
+    color: #c0c0c0;
+font-size: 12.64px;
+font-weight: 400;
+}
+.userMassageBox .userCall .callMsg{
+    display: flex;
+    gap: 10px;
+}
+.userMassageBox .userCall .callMsg svg{
+    width: 20px;
+height: 20px;
+cursor: pointer;
+}
+.MassageBoxUser{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.MassageBoxUser .message-input{
+    width: 100%;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.MassageBoxUser .message-input input{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.MassageBoxUser .message-input button{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #00AFEF;
+}
+.MassageBoxUser  .message-input .emojiColor{
+    color: #06152B;
+}
+.ClassMassage{
+    width: 100%;
+}
+.student-message{
+    background-color: #00AFEF;
+    color: #fff;
+    gap: 10px;
+    padding: 20px;
+    width: 40%;
+    border-radius: 5px 5px 5px 0px;
+    margin-top: 5rem;
+}
+.student-message .timestamp{
+    margin-left: 10px;
+    opacity: 0.5;
+    color: var(--Light-Version-Neutral, #FFF);
+    font-size: 9.64px;
+font-weight: 400;
+}
+.teacher-message{
+    margin: 0rem 0px 1rem 0px;
+    float: right;
+    width: 40%;
+    background-color: #fff;
+    color: #00AFEF;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 5px 5px 5px 5px;
+}
+.teacher-message .timestamp{
+color: var(--new-1, rgba(0, 175, 239, 0.20));
+font-size: 9.64px;
+font-weight: 400;
+    margin-left: 10px;
+    opacity: 0.8;
+}
+/* .toggle{
+    display: none;
+}
+
+  @media (max-width: 800px) {
+    .firstTab {
+      display: none;
+    }
+    .userMassages{
+        width: 100%;
+    }
+    .toggle{
+        font-size: 20px;
+        position: absolute;
+        right: 23px;
+        color: #00AFEF;
+        display: block;
+    }
+  }
+ */
+
+
+/* CSS */
+
+.toggle {
+    font-size: 20px;
+    position: absolute;
+    right: 23px;
+    color: #00AFEF;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .toggle.active {
+    color: #ff0000; /* Change color when firstTab is open */
+  }
+  @media (max-width:1040px) {
+    .sideBar .firstTab .btnAndSearch .Buttons {
+        gap: 5px;
+    }
+    .sideBar .firstTab .btnAndSearch .Buttons button {
+        font-size: 10px;
+    }
+    .sideBar .firstTab .btnAndSearch .search input {
+        padding: 6px 0px;
+    }
+    .userMassage .userInfo .time p {
+        font-size: 10px;
+    }
+    .userMassage .userInfo h2 {
+        font-size: 11px;
+        margin: 0px;
+    }
+    .userMassage img {
+        width: 38px;
+        height: 38px;
+    }
+  }
+  @media (max-width: 900px) {
+    .firstTab {
+      display: none;
+    }
+    .userMassages {
+      width: 100%;
+    }
+    .toggle {
+      display: block;
+    }
+    .first-tab-open .firstTab {
+        position: absolute;
+        width: 90%;
+      display: block;
+    }
+    .sideBar .firstTab .btnAndSearch .Buttons {
+        gap: 10px;
+    }
+    .sideBar .firstTab .btnAndSearch .Buttons button {
+        font-size: 16px;
+    }
+    .sideBar .firstTab .btnAndSearch .search input {
+        padding: 10px 0px;
+    }
+    .userMassage .userInfo .time p {
+        font-size: 12px;
+    }
+    .userMassage .userInfo h2 {
+        font-size: 16px;
+        margin: 0px;
+    }
+    .userMassage img {
+        width: 38px;
+        height: 38px;
+    }
+  }
+  

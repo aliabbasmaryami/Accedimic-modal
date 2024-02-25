@@ -1,0 +1,148 @@
+* {
+  overflow-x: hidden;
+}
+.EditStaff-main .row > * {
+  padding-right: 0px !important;
+}
+.EditStaff-main {
+  background: #f5f4f6;
+}
+.EditStaff-Col3-main {
+  height: auto;
+  background-color: white;
+}
+.EditStaff-Child-1 {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+}
+.EditStaff-COl3 {
+  background-color: white;
+}
+
+.fiupload-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 171px;
+  height: 171px;
+  border: 1px solid #00afef;
+  border-radius: 50%;
+}
+.fiupload-img img {
+  width: 17px;
+  height: 17px;
+  margin: 0;
+  cursor: pointer;
+}
+.upLoaDing{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.upLoaDing label{
+    color: #00afef;
+}
+
+.EditStaff-Child-1 h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #00afef;
+  margin-top: 7px;
+  height: 25px;
+}
+.EditStaff-Child-1 button {
+  height: 36px;
+  width: 152px;
+  border-radius: 18px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #6e7485;
+  margin-top: 7px;
+  margin-bottom: 30px;
+}
+.EditStaff-main .accordion-item:last-of-type .accordion-button.collapsed {
+  background-color: white;
+  box-shadow: none !important;
+  color: #64748b;
+}
+.EditStaff-main .accordion-item:first-of-type .accordion-button {
+  background-color: #00afef;
+  box-shadow: none !important;
+  border-radius: 0px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 7px;
+}
+.EditStaff-main .accordion {
+  padding: 0px;
+}
+.EditStaff-main .accordion-body {
+  padding: 0px;
+}
+.EditStaff-main .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  border-radius: 0px;
+  background-color: #4ac6f4;
+  padding-left: 30px;
+}
+.EditStaff-main .nav-pills .nav-link {
+  color: #00afef;
+  background: rgba(204, 239, 252, 0.7);
+  font-weight: 500;
+  font-size: 12px;
+  padding-left: 30px;
+  border-radius: 0px;
+}
+.EditStaff-main .EditStaffDifferentLink {
+  background-color: white;
+  box-shadow: none !important;
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 30px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.EditStaff-main svg {
+  margin-right: 5px;
+  font-size: 18px;
+}
+@media (max-width: 777px) {
+  .EditStaff-Child-1 img {
+    width: 151px;
+    height: 151px;
+  }
+  .EditStaff-Child-1 h2 {
+    font-size: 14px;
+  }
+  .EditStaff-Child-1 button {
+    height: 34px;
+    width: 148px;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .EditStaff-main .EditStaffDifferentLink {
+    font-size: 14px;
+    padding-left: 25px;
+  }
+  .EditStaff-main .accordion-item:first-of-type .accordion-button {
+    font-size: 14px;
+    padding-left: 6px;
+  }
+}
+@media (max-width: 688px) {
+  .EditStaff-Child-1 img {
+    width: 131px;
+    height: 131px;
+  }
+  .EditStaff-main .row > * {
+    padding-right: 0px !important;
+  }
+}

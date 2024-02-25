@@ -1,0 +1,114 @@
+.transation-table-main {
+  width: 100%;
+  height: 673px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #fff;
+  margin: auto;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin-top: 10px;
+}
+.transation-table-main h2 {
+  color: #343c6a;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 10px;
+}
+
+.transition-table-heads {
+  color: #343c6a;
+  font-size: 16px;
+  font-weight: 500;
+}
+.table-row-Transition {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 5px;
+}
+.table-row-Transition p {
+  margin-bottom: 0px;
+  color: #232323;
+  font-size: 16px;
+  font-weight: 400;
+  text-decoration-line: underline;
+}
+.IoArrowUpCircleOutline-transition-table {
+  border-radius: 8px;
+  color: #00afef;
+  width: 30.432px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.table-row-Transition-up {
+  display: flex;
+  gap: 5px;
+}
+.ing-table-line p {
+  color: #232323;
+  font-size: 16px;
+  font-weight: 400;
+}
+.transition-table-table-data {
+  color: #f93333 !important;
+  font-size: 16px;
+  font-weight: 500;
+}
+.transition-table-btn button {
+  width: 101.441px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #00afef;
+  color: #00afef;
+  background: transparent;
+}
+
+/* new 2 */
+.table-row-Transition-down {
+  display: flex;
+  align-items: center;
+  /* justify-content: start; */
+  gap: 5px;
+  margin-top: 6px;
+}
+
+.table-row-Transition-down p {
+  margin-bottom: 0;
+  color: #232323;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.IoArrowUpCircleOutline-transition-table-down {
+  width: 30.432px;
+  height: 30px;
+  flex-shrink: 0;
+  color: #f93333;
+}
+
+.transition-table-btn-2 button {
+  width: 101.441px;
+  height: 35px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #00afef;
+  color: #00afef;
+  background: transparent;
+}
+.transation-table-main table td {
+  color: #232323;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+ 

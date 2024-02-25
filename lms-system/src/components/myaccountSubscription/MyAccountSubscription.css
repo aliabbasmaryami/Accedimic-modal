@@ -1,0 +1,280 @@
+.my-account-subscriptiom-main {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+}
+.my-account-subscriptiom-main h6 {
+  color: var(--new, #00afef);
+  font-size: 14px;
+  font-weight: 600;
+}
+.my-account-subscriptiom-main-1 {
+  display: flex;
+  width: 100%;
+  height: 213px;
+  border-radius: 12px;
+  background: var(--Additional-white, #fff);
+  box-shadow: 3px 3px 40px 0px rgba(49, 69, 86, 0.1);
+}
+.my-account-upload-profile-image-account{
+  width: 10%;
+}
+.my-account-upload-profile-image-account label{
+  margin-left: 1.6rem;
+  color: #00afef;
+}
+.my-account-upload-profile-image-account img {
+  width: 171px;
+  height: 171px;
+  border-radius: 50%;
+  border: 2px solid #00afef;
+}
+.my-account-subscriptiom-information {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.my-account-subscriptiom-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--new, #00afef);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 20px;
+}
+.my-account-subscriptiom-name button {
+  color: var(--Gray-White, #fff);
+  background: var(--new, #00afef);
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  width: 187px;
+  padding: 12px 24px;
+  justify-content: center;
+  border: none;
+}
+.my-account-subscriptiom-input-form {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 3rem;
+}
+.my-account-subscriptiom-input-form label {
+  color: var(--Gray-500, #8c94a3);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* div2 */
+.my-account-subscriptiom-main-2 {
+  width: 100%;
+  height: 213px;
+  border-radius: 12px;
+  background: var(--Additional-white, #fff);
+  box-shadow: 3px 3px 40px 0px rgba(49, 69, 86, 0.1);
+  margin-top: 14px;
+  padding: 20px;
+}
+.my-account-subscriptiom-main-2-chils-1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+.my-account-subscriptiom-main-cards-data {
+  margin-left: 20px;
+}
+.my-account-subscriptiom-main-cards-data h4 {
+  color: var(--Gray-700, #4e5566);
+  font-size: 22px;
+  font-weight: 600;
+}
+.my-account-subscriptiom-main-cards-data p {
+  color: var(--Gray-800, #363b47);
+  font-size: 14px;
+  font-weight: 400;
+}
+.my-account-subscriptiom-main-cards-data span {
+  color: var(--Gray-900, #1d2026);
+  font-weight: bold;
+}
+.my-account-subscriptiom-main-cards-data button {
+  display: flex;
+  width: 187px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: var(--Gray-White, #fff);
+  background: var(--new, #00afef);
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.my-account-subscriptiom-main-2-chils-1-data {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.my-account-subscriptiom-main-2-chils-1-data2 {
+  display: flex;
+  align-items: center;
+  gap: 35px;
+}
+.my-account-subscriptiom-main-cards-data2 h4 {
+  color: var(--Gray-700, #4e5566);
+  font-size: 22px;
+  font-weight: 600;
+}
+.my-account-subscriptiom-main-cards-data2 ol li {
+  color: var(--Gray-800, #363b47);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.setting-child-3 {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+.Account-setting-notification {
+  background: var(--Gray-White, #fff);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  display: flex;
+  width: 45%;
+  padding: 39px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+/* notification */
+.Account-setting-notification h5 {
+  color: var(--Gray-900, #1d2026);
+  font-size: 24px;
+  font-weight: 600;
+}
+.Notifications-checkboxes {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+.Notifications-checkboxes p {
+  color: var(--Gray-900, #1d2026);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.setting-notification-btn button {
+  display: flex;
+  padding: 0px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  background: var(--new, #00afef);
+  border: none;
+  color: var(--Gray-White, #fff);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 24px;
+}
+
+/* change password */
+.Account-setting-Change-password {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  width: 55%;
+  padding: 39px 32px;
+}
+.Account-setting-Current-Password {
+  margin-top: 24px;
+}
+.Account-setting-Change-password h5 {
+  color: var(--Gray-900, #1d2026);
+  font-size: 24px;
+  font-weight: 600;
+}
+.Account-setting-Current-Password label {
+  color: var(--Gray-900, #1d2026);
+  font-size: 14px;
+  font-weight: 400;
+}
+.Change-password-input {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  border: 1px solid var(--Gray-100, #e9eaf0);
+  background: var(--Gray-White, #fff);
+  margin-top: 6px;
+}
+.Change-password-input input {
+  border: none;
+  outline: none;
+}
+/*  */
+.Account-setting-New-Password {
+  margin-top: 18px;
+}
+.Account-setting-New-Password label {
+  color: var(--Gray-900, #1d2026);
+  font-size: 14px;
+  font-weight: 400;
+}
+.New-Password-input {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  border: 1px solid var(--Gray-100, #e9eaf0);
+  background: var(--Gray-White, #fff);
+  margin-top: 6px;
+}
+.New-Password-input input {
+  border: none;
+  outline: none;
+}
+/*  */
+
+.Account-setting-Confirm-Password {
+  margin-top: 18px;
+}
+.Account-setting-Confirm-Password label {
+  color: var(--Gray-900, #1d2026);
+  font-size: 14px;
+  font-weight: 400;
+}
+.Confirm-password-input {
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 18px;
+  border: 1px solid var(--Gray-100, #e9eaf0);
+  background: var(--Gray-White, #fff);
+  margin-top: 6px;
+}
+.Confirm-password-input input {
+  border: none;
+  outline: none;
+}
+.setting-password-btn button {
+  display: flex;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  background: var(--new, #00afef);
+  color: var(--Gray-White, #fff);
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  margin-top: 24px;
+}

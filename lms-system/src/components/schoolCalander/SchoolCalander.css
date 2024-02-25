@@ -1,0 +1,210 @@
+.School-Calander-main {
+  width: 100%;
+  padding: 10px;
+  height: auto;
+}
+.School-Calander-main-first {
+  display: flex;  
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 0px 30px;
+}
+.Carleft-icons-Fa {
+  width: 16px;
+  height: 16px;
+  color: #c2c6ce;
+  margin-left: 8px;
+}
+.School-Calander-main-first span {
+  color: var(--new, #00afef);
+  font-size: 14px;
+  font-weight: 600;
+}
+.School-Calander-main-first p {
+  margin-bottom: 0px;
+  color: var(--Neutral-Gray-Gray-500, #667085);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.School-Calander-main-child-1 {
+  height: auto;  
+  width: 100%;
+  padding: 20px 10px;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  background-color: #00afef !important;
+  border-radius: 9px;
+  color: white !important;
+  font-size: 16px;
+  font-weight: 600;
+}
+.css-1gsv261 {
+  border-bottom: none !important;
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+.css-heg063-MuiTabs-flexContainer {
+  display: flex;
+  gap: 20px !important;
+}
+.css-1aquho2-MuiTabs-indicator {
+  position: absolute;
+  height: 2px;
+  bottom: 0;
+  width: 100%;
+  transition: none !important;
+  background-color: #e9eaf0 !important;
+  border: none !important;
+}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+  border-radius: 9px;
+  background: var(--new-1, rgba(0, 175, 239, 0.2)) !important;
+}
+.Currejdkd {
+  border-radius: 9px !important;
+  color: var(--new, #00afef) !;
+  font-size: 16px !;
+  font-weight: 600 !;
+  background: var(--new-1, rgba(0, 175, 239, 0.2));
+}
+.Currejdkd:focus {
+  border-radius: 9px !important;
+  background: var(--new, #00afef) !important;
+}
+
+.School-Calander-main-Tabs-buttn {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 40px;
+  color: white;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 0.5px solid var(--new, #00afef);
+  background: var(--new, #00afef);
+}
+.School-Calander-main-Tabs-buttn button {
+  border: none;
+  background: var(--new, #00afef);
+  display: flex;
+  color: white;
+}
+/* div2 */
+.School-Calander-main-child-2 {
+  width: 100%;
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 29px 13px;
+  position: relative;
+}
+.School-Calander-main-child-2-child-1 h1 {
+  color: var(--new, #00afef);
+  font-size: 16px;
+  font-weight: 700;
+}
+.School-Calander-main-child-2-child-1-BsThreeDotsVertical {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 10px;
+}
+.school-calander-child-2-data {
+  display: flex;
+  justify-content: space-between;
+}
+.School-Calander-main-child-2-child-2 p {
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  color: var(--Gray-700, #4e5566);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 39px;
+}
+.bosdii-lala {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.bosdii-lala img {
+  width: 15.798px;
+  height: 15px;
+}
+.bosdii-lala p {
+  margin-bottom: 0px;
+  color: var(--Gray-800, #363b47);
+  font-size: 12px;
+  font-weight: 500;
+}
+.bosdii-lala-2 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 0;
+}
+.bosdii-lala-2 img {
+  width: 15.798px;
+  height: 15px;
+}
+.bosdii-lala-2 p {
+  color: var(--Gray-800, #363b47);
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.Edit-button-School-Calander {
+  width: 144px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5.76px;
+  opacity: 0.5;
+  background: var(--new, #00afef);
+  color: white;
+  align-items: center;
+  border: none;
+  margin: 10px;
+  text-align: center;
+  font-size: 12.949px;
+  font-weight: 400;
+}
+.Delete-button-School-Calander {
+  width: 144px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 5.76px;
+  opacity: 0.5;
+  background: var(--alerts-status-error, #f75555);
+  color: white;
+  border: none;
+  text-align: center;
+  font-size: 12.949px;
+  font-weight: 400;
+}
+.modal-description-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.School-Calander-main-child-1-test-data-1 {
+  width: 97%;
+  margin-left: 24px;
+  height: 110px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background: #FFF;
+  padding: 24px;
+  border-radius: 4px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+

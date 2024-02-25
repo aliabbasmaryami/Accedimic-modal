@@ -1,0 +1,72 @@
+.CreateNewClass-main{
+    width: 100%;
+    height: 260px;
+    padding: 10px;
+}
+.CreateNewClass-main-child1{
+    width: 100%;
+}
+.CreateNewClass-main-child1 h5{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center; 
+}
+.CreateNewClass-main-child2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 23px;
+}
+.CreateNewClass-main-child3{
+    display: flex;
+    flex-direction: column;
+    border: 2px dashed #6E7485;
+    width: 171px;
+    height: 171px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.CreateNewClass-main-child4 input{
+    width: 100%;
+    height: 52px;
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #00AFEF;
+    padding: 10px;
+}
+.CreateNewClass-main-child4-My-Name{
+    margin-top: 10px;
+}
+.CreateNewClass-main-child5{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.CreateNewClass-main-child5 button{
+    width: 190px;
+    height: 46px;
+    border: none;
+    background: #00AFEF33;
+    color: #00AFEF;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+}
+.CreateNewClass-main-child5 button:focus{
+    background: #00AFEF;
+    color: white;
+}
+.PiUploadFill-create{
+    color: #00AFEF;
+    width: 30px;
+    height: 30px;
+}
+.thumbnail-preview {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures the image covers the entire container */
+  }

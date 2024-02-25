@@ -1,0 +1,99 @@
+
+.Classroom-child-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 22px;
+  /* margin: auto; */
+  color: #06241b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Classroom-child-1 span {
+  color: var(--Primary-900, var(--new, #00afef));
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 40.792px;
+}
+.Classroom-child-1 p {
+  color: #06241b;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Classroom-child-2-map{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Classroom-child-2 {
+  width: 30%;
+  /* height: 540px; */
+  margin: auto;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Classroom-child-2-main {
+  margin-top: 10px;
+  width: 249px;
+  height: 263px;
+  border-radius: 4.384px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.three-dot-icon {
+  color: #6cd8cd;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.classroom-child-2-img {
+ margin-top: 20px;
+ border-radius: 4px;
+}
+.classroom-child-2-img img {
+  width: 216px;
+  height: 167px;
+  
+}
+
+.Classroom-child-2-main p {
+  color: #6cd8cd;
+  font-family: Public Sans;
+  font-size: 10px;
+  font-weight: 700;
+  margin: 0;
+  margin-top: 8px;
+}
+.Classroom-child-2-main button {
+  display: flex;
+  width: 216.288px;
+  height: 33.382px;
+  padding: 5.564px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.955px;
+  border: none;
+  border-radius: 8.345px;
+  border: 0px solid #00afef;
+  background: #6cd8cd;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: inter;
+  margin-top: 4px;
+}

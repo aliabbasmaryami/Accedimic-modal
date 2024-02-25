@@ -1,0 +1,58 @@
+.AttendenceFilterss-main {
+    width: 100%;
+    padding: 40px 30px;
+  }
+
+  .AtendenceFilterss-childs table{
+    width: 100%;
+  }
+  .AttendenceFilterss-main p {
+    color: #64748b;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .AttendenceFilterss-main table th {
+    color: #464a53;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+  }
+  .Attendence-subject{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3C3C3C;
+  }
+  
+  .AttendenceFilterss-main table tr {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+
+  }
+  .AttendenceFilterss-main .AttendenceFilterss-tr-data {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    height: 70px;
+    margin-top: 14px;
+    width: 100% !important;
+  }
+  .AttendenceFilterss-main .AttendenceFilterss-tr-data td{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+  }
+  .AttendenceFilterss-tr-data button {
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+
+  

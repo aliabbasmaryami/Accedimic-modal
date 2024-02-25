@@ -1,0 +1,50 @@
+.AllowModal-MaiN{
+    width: 100%;
+}
+.css-1wnsr1i {
+    border-radius: 10px;
+    border: 0px !important;
+    width: 520px !important;
+    height: 220px !important;
+}
+.AllowModal-MaiN-child1 p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+.AllowModal-MaiN-child1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.AllowModal-MaiN-child1 .AllowModal-MaiN-child2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+.AllowModal-MaiN-child2-Dont-allow{
+    width: 161px;
+    height: 48px;
+    background-color: #F93333;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+.AllowModal-MaiN-child2-allow{
+    width: 161px;
+    height: 48px;
+    background-color: #00AFEF;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}

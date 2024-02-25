@@ -1,0 +1,76 @@
+.CMmodal-main0modal .modal-content {
+    height: auto !important;
+    width: 610px !important;
+}
+
+.CMmodal-main0modal .ql-container {
+    height: 100px !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.CMmodal-main0modal .modal-header {
+    background-color: #E6E2E29E;
+}
+
+.CMmodal-main0modal .modal-title {
+    color: #333333;
+    font-size: 21px;
+    font-weight: 500;
+}
+.Accedmic-modal-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Accedmic-modal-main-child1 .form-select {
+    width: 321px;
+    height: 45px;
+}
+.Accedmic-modal-main label{
+    font-weight: 400;
+    font-size: 18px;
+    color: #363B47;
+}
+/* div1 */
+.Accedmic-modal-main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.Accedmic-modal-main-child1 .form-select {
+    width: 321px;
+    height: 45px;
+}
+/* div2 */
+.Accedmic-modal-main1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+.Accedmic-modal-main-child1 .form-select {
+    width: 321px;
+    height: 45px;
+}
+.Accedmic-modal-main-child3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.Accedmic-modal-main-child3 button{
+    width:  187px;
+    height: 48px;
+    color: #00afef;
+    background-color: #00AFEF33;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+}
+.Accedmic-modal-main-child3 button:focus{
+    color: #ffffff;
+    background: #00afef;
+
+}

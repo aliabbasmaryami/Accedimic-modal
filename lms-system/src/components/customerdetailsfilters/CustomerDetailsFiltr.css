@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap");
+
+.customerdetail-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ padding: 10px;
+}
+.customerdetail-child-1 {
+  display: flex;
+  gap: 8px;
+}
+
+.customerdetail-child-1 p{
+  color: #1D2026;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.customerdetail-child-1-datepicker{
+  margin-left: 10px;
+  border: none;
+  color: #00AFEF;
+  margin-top: 7px;
+  outline: none;
+}
+.react-datepicker__input-container .react-datepicker__calendar-icon{
+  margin-top: 9px;
+  display: flex;
+  padding: 10px;
+
+}
+.react-datepicker__calendar-icon{
+  color: red;
+}
+.customerdetail-child-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.customerdetail-child-2-search {
+  width: 200px;
+  height: 42px;
+  padding: 10px;
+  display: flex;
+  border-radius: 8px;
+  border: 1px solid var(--Neutral-Gray-Gray-100, #e0e2e7);
+  background: var(--Neutral-White, #fff);
+}
+.customerdetail-child-2-search input {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+.customerdetail-child-2-search input::placeholder {
+  color: var(--Neutral-Gray-Gray-400, #858d9d);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.customerdetail-child-2-calander {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4px;
+}
+.customerdetail-child-1-datepicker2{
+  width: 200px;
+  height: 42px;
+  padding: 10px;
+  display: flex;
+  outline: none;
+  gap: 5px;
+  border-radius: 8px;
+  border: 1px solid var(--Neutral-Gray-Gray-100, #e0e2e7);
+  background: var(--Neutral-White, #fff);
+  margin-top: 6px;
+  margin-left: 2px;
+  color: #e0e2e7;
+}
+
+.customerdetail-child-2-setting {
+  display: flex;
+  padding: 9px 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--Neutral-Gray-Gray-100, #e0e2e7);
+  background: var(--Neutral-White, #fff);
+ 
+}
+.customerdetail-child-2-setting img {
+  width: 16px;
+  height: 16px;
+}
+.customerdetail-child-2-setting p {
+  margin-bottom: 0;
+  color: var(--Neutral-Gray-Gray-500, #667085);
+  font-size: 14px;
+  font-weight: 500;
+}
+

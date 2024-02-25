@@ -1,0 +1,90 @@
+.StaffProfile-main{
+    background-color: rgb(255, 255, 255);
+}
+.StaffProfile-child-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 20px;
+}
+.StaffProfile-main h3{
+    font-weight: 600;
+    font-size: 20px;
+    color: #00afef;
+    height: 25px;
+}
+.StaffProfile-main h4{
+    font-weight: 500;
+    font-size: 16px;
+    color: #00afef;
+    height: 25px;
+}
+.StaffProfile-child-1 button{
+    padding: 0px 24px;
+    height: 46px;
+    width: 187px;
+    border: none;
+    color: #fff;
+    background-color: #00afef;
+    font-weight: 600;
+    font-size: 16px;
+}
+.StaffProfile-row-1{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.StaffProfile-row-1 input{
+    border: none;
+    outline: none;
+}
+.StaffProfile-row-1 label{
+    font-weight: 400;
+    font-size: 14px;
+    color: #8C94A3;
+}
+@media (max-width:778px) {
+    .StaffProfile-main h3 {
+        font-size: 18px;
+    }
+    .StaffProfile-child-1 button {
+        height: 43px;
+        width: 180px;
+    }
+    .StaffProfile-main h4 {
+        font-size: 14px;
+    }
+    .StaffProfile-row-1 {
+        padding: 16px;
+    }
+    .StaffProfile-child-1 {
+    padding:16px;
+}
+}
+@media (max-width:710px) {
+    .StaffProfile-row-1 label {
+        font-weight: 400;
+        font-size: 12px;
+    }
+    .StaffProfile-child-1 button {
+        height: 40px;
+        width: 160px;
+        font-size: 14px;
+    }
+}
+@media (max-width:628px){
+    .StaffProfile-Main .accordion-item:first-of-type .accordion-button {
+        font-size: 12px;
+        padding-left: 7px;
+    }
+    .StaffProfile-Main .StaffDifferentLink {
+        font-size: 12px;
+        padding-left: 20px;
+    }
+    .StaffProfile-Child-1 button {
+        width: 122px;
+        margin-top: 0px;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,191 @@
+.Addsignup-main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background-color: #9999;
+}
+
+.Addsignup-main-child-1 {
+    width: 50%;
+    height: 100vh;
+    background: #00AFEF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.Addsignup-main-child-2 {
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.Addsignup-main-child-1-logo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 16px;
+    padding: 20px;
+    align-items: center;
+}
+
+.Addsignup-main-child-1-logo img {
+    width: 55px;
+    height: 57.759px;
+    flex-shrink: 0;
+}
+
+.Addsignup-main-child-1-logo h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 31.55px;
+    font-weight: 700;
+    line-height: 124%;
+    letter-spacing: -0.946px;
+}
+
+.Addsignup-main-child-1-img img {
+    width: 100%;
+    height: 370px;
+}
+
+.Addsignup-main-child-1-taxt h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.Addsignup-main-child-1-taxt p {
+    color: #F8FAFC;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Addsignup-main-child-1-dits {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dits-white {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+}
+
+.dits-blue {
+    width: 10px;
+    height: 10px;
+    background-color: #abdbec;
+    opacity: 0.6;
+    border-radius: 100%;
+}
+
+.Addsignup-main-child-2-title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.Addsignup-main-child-2-title h2 {
+    color: #0F172A;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 0.2px;
+}
+
+.Addsignup-main-child-2-title p {
+    color: #64748B;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+    width: 400px;
+}
+
+.Addsignup-main-child-2-form {
+    width: 75%;
+    margin: 20px;
+    margin-left: 60px;
+}
+
+.Addsignup-main-child-2-input {
+    display: flex;
+    gap: 20px !important;
+}
+
+.Addsignup-main-child-2-input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Addsignup-main-child-2-input .inputs {
+    width: 100%;
+}
+
+.Addsignup-main-child-2-input .inputs-2 {
+    display: flex;
+}
+
+.Addsignup-main-child-2-input .inputs label {
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.Addsignup-main-child-2-input .inputs .input {
+    width: 100%;
+   display: flex;
+    justify-content: space-between;
+}
+
+.Addsignup-main-child-2-input .inputs-2 .input {
+    display: flex;
+    flex-direction: column;
+}
+
+.Addsignup-main-child-2-input .input input {
+    width: 49.5%;
+    outline: none;
+    height: 40px;
+    padding: 0px 16px;
+    border-radius: 7px;
+    border: 1px solid var(--Greyscale-200, #E2E8F0);
+}
+
+.Addsignup-main-child-2-input .inputs-2 .input input {
+    width: 98%;
+}
+
+.Addsignup-main-child-2-input button {
+    margin-top: 50px;
+    height: 46px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    background: var(--new, #00AFEF);
+    color: var(--Additional-white, #FFF);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Addsignup-main-child-2-input button:hover {
+    box-shadow: 0 0 5px #00AFEF, 0 0 25px #00AFEF;
+    transition-duration: 1s;
+}

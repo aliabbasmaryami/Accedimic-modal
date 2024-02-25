@@ -1,0 +1,50 @@
+.CourseSchedule-main {
+  width: 100%;
+  height: 392px;
+  padding: 40px 30px;
+}
+.CourseSchedule-main p {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: 500;
+}
+.CourseSchedule-main table th {
+  color: #464a53;
+  font-size: 11.414px;
+  font-weight: 400;
+}
+
+.CourseSchedule-main table tr {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.CourseSchedule-main .courseSchedule-tr-data {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  width: 710px;
+  height: 51.246px;
+  margin-top: 10px;
+  padding: 19px;
+}
+.courseSchedule-tr-data button {
+  padding: 0px 10px;
+  border: none;
+  color: white;
+  background-color: #71d875;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.timeup {
+  /* margin-left: 70px; */
+}
+.courseSchedule-IcOns {
+  display: flex;
+  gap: 10px;
+}
+.courseSchedule-IcOns {
+  color: #6a707e;
+  font-size: 15px;
+  font-weight: 400;
+}

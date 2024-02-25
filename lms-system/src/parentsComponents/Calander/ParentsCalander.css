@@ -1,0 +1,37 @@
+
+.parents-Calander-main{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.css-1u23akw-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+    will-change: background-color;
+    background-color: #00AFEF !important;
+}
+.parents-Calander-mainn1{
+    display: flex;
+    gap: 14px;
+    border: 1px solid #00AFEF;
+    width: 272px;
+    height: 51px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 11px;
+    background: #00AFEF;
+    color: white;
+}
+.parents-Calander-mainn1 h4{
+    font-size: 16px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.css-1q04gal-MuiDateCalendar-root{
+    margin: 0px !important;
+    width: 272px !important;
+    border: 1px solid #00AFEF;
+    margin-top: 7px !important;
+    border-radius: 11px;    
+}

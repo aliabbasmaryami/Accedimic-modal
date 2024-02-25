@@ -1,0 +1,145 @@
+*{
+    overflow-y: hidden;
+}
+.StaffInfoSchool-main {
+  background-color: rgb(255, 255, 255);
+}
+.StaffInfoSchool-child-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.StaffInfoSchool-child-1 h3 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #00afef;
+  height: 25px;
+}
+.StaffInfoSchool-child-1 h4 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #00afef;
+  height: 25px;
+}
+.StaffInfoSchool-child-1 button {
+  padding: 0px 24px;
+  height: 46px;
+  width: 187px;
+  border: none;
+  color: #fff;
+  background-color: #00afef;
+  font-weight: 600;
+  font-size: 16px;
+}
+.StaffInfoSchool-row-1 {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.StaffInfoSchool-row-1 input {
+  border: none;
+  outline: none;
+}
+.StaffInfoSchool-row-1 label {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8c94a3;
+}
+/* div 2 */
+.StaffInfoSchool-2 {
+  padding: 10px 20px;
+}
+.StaffInfoSchool-2 p {
+  color: var(--new, #00afef);
+  font-size: 20px;
+  font-weight: 600;
+}
+.StaffInfoSchool-table table {
+  width: 814px;
+  height: 139px;
+  border-collapse: collapse;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid var(--Gray-200, #ced1d9);
+}
+.StaffInfoSchool-table table th {
+  border: 1px solid var(--Gray-200, #ced1d9);
+  padding: 10px;
+  color: var(--Gray-800, #363b47);
+  font-size: 12.889px;
+  font-weight: 600;
+}
+
+.StaffInfoSchool-table table tbody tr td {
+  border: 1px solid var(--Gray-200, #ced1d9);
+  padding: 10px;
+}
+
+@media (max-width: 1024px) {
+  .StaffInfoSchool-table table {
+    width: 974px;
+  }
+}
+@media (max-width: 912px) {
+  .StaffInfoSchool-table table {
+    width: 864px;
+  }
+}
+@media (max-width: 820px) {
+  .StaffInfoSchool-table table {
+    width: 770px;
+  }
+}
+@media (max-width: 778px) {
+  .StaffInfoSchool-child-1 h3 {
+    font-size: 18px;
+  }
+  .StaffInfoSchool-child-1 button {
+    height: 43px;
+    width: 180px;
+  }
+  .StaffInfoSchool-child-1 h4 {
+    font-size: 14px;
+  }
+  .StaffInfoSchool-row-1 {
+    padding: 16px;
+  }
+  .StaffInfoSchool-child-1 {
+    padding: 16px;
+  }
+  .StaffInfoSchool-table table {
+    width: 614px;
+  }
+}
+@media (max-width: 642px) {
+  .StaffInfoSchool-table table {
+    width: 514px;
+  }
+  .StaffInfoSchool-row-1 {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+@media (max-width: 710px) {
+  .StaffInfoSchool-row-1 label {
+    font-weight: 400;
+    font-size: 12px;
+  }
+  .StaffInfoSchool-child-1 button {
+    height: 40px;
+    width: 160px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 628px) {
+  .StaffInfoSchool-Child-1 button {
+    width: 122px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+  }
+}
+

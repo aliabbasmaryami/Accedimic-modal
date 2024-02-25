@@ -1,0 +1,155 @@
+.EditStafAddress-main {
+  width: 100%;
+  padding: 20px 10px;
+}
+.EditStafAddress-child-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+.EditStafAddress-child-1 h2 {
+  color: var(--new, #00afef);
+  font-size: 20px;
+  font-weight: 600;
+}
+.EditStafAddress-child-1 p {
+  color: #00afef;
+  font-size: 16px;
+  font-weight: 500;
+}
+.EditStafAddress-child-2 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.EditStafAddress-child-2 label {
+  color: #1d2026;
+  font-size: 12.865px;
+  font-weight: 400;
+}
+.EditStafAddress-child-2 input {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 0.919px solid var(--new-1, rgba(0, 175, 239, 0.2));
+  background: var(--Gray-White, #fff);
+}
+.EditStafAddress-child-3 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.EditStafAddress-child-3 label {
+  color: #1d2026;
+  font-size: 12.865px;
+  font-weight: 400;
+}
+.EditStafAddress-child-3 input {
+  height: 50px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: 0.919px solid rgba(0, 175, 239, 0.2);
+  background: var(--Gray-White, #fff);
+}
+
+.EditStafAddress-4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+.EditStafAddress-5 {
+  width: 80%;
+  display: flex;
+  gap: 10px;
+}
+.EditStafAddress-5 h3 {
+  color: var(--new, #00afef);
+  font-size: 20px;
+  font-weight: 600;
+}
+.EditStafAddress-5 h5 {
+  color: #363b47;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+.EditStafAddress-5 img {
+  width: 13px;
+  height: 20px;
+}
+.EditStafAddress-btnn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 58%;
+  gap: 10px;
+  margin-top: 60px;
+}
+.EditStafAddress-btnn button {
+  display: flex;
+  height: 50px;
+  color: var(--new, #00afef);
+  font-size: 16px;
+  font-weight: 600;
+  width: 187px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: var(--new-1, rgba(0, 175, 239, 0.2));
+}
+
+.EditStafAddress-btnn button:focus {
+  background-color: #00afef;
+  color: white;
+  border: none;
+}
+
+@media (max-width: 1488px) {
+  .EditStafAddress-child-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .EditStafAddress-child-3 input {
+    height: 50px;
+    padding: 5px;
+    width: 100%;
+  }
+}
+@media (max-width: 822px) {
+  .EditStafAddress-child-3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  .EditStafAddress-child-2 input {
+    height: 50px;
+    padding: 10px;
+    width: 100%;
+}
+}
+@media (max-width:485px) {
+    .EditStafAddress-child-2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+@media (max-width:375px) {
+  .EditStafAddress-child-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+}

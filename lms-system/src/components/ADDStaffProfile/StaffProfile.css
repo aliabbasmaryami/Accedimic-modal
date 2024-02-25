@@ -1,0 +1,128 @@
+*{
+    overflow-x: hidden;
+}
+.StaffProfile-Main .row>*{
+    padding-right: 0px !important;
+   }
+.StaffProfile-Main{
+    background: #F5F4F6;
+}
+.StaffProfile-Col3-main{
+    height: auto;
+    background-color: white;
+}
+.StaffProfile-Child-1{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.StaffProfile-COl3{
+    background-color: white;
+}
+.StaffProfile-Child-1 img{
+    border-radius: 50%;
+    width: 171px;
+    height: 171px;
+    border: 1px solid #00AFEF;
+    box-shadow: 1px 1px 4px 1px #00AFEF;
+}
+.StaffProfile-Child-1 h2{
+    font-size: 16px;
+    font-weight: 700;
+    color: #00afef;
+    margin-top: 7px;
+    height: 25px;
+}
+.StaffProfile-Child-1 button{
+    height: 36px;
+    width: 152px;
+    border-radius: 18px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E7485;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+.StaffProfile-Main .accordion-item:last-of-type .accordion-button.collapsed{
+    background-color: white;
+    box-shadow: none !important;
+    color: #64748B;
+}
+.StaffProfile-Main .accordion-item:first-of-type .accordion-button{
+    background-color: #00afef;
+    box-shadow: none !important;
+    border-radius: 0px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 7px;
+}
+.StaffProfile-Main .accordion{
+    padding: 0px;
+}
+.StaffProfile-Main .accordion-body{
+    padding: 0px;
+}
+.StaffProfile-Main .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    border-radius: 0px;
+    background-color: #4AC6F4;
+    padding-left: 30px;
+}
+.StaffProfile-Main .nav-pills .nav-link{
+    color: #00AFEF;
+    background: rgba(204, 239, 252, 0.70);
+    font-weight: 500;
+    font-size: 12px;
+    padding-left: 30px;
+    border-radius: 0px;
+}
+.StaffProfile-Main .StaffDifferentLinkss{
+    background-color: white;
+    box-shadow: none !important;
+    color: #64748B;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+.StaffProfile-Main svg{
+    margin-right: 5px;
+    font-size: 18px;
+}
+@media (max-width:777px) {
+    .StaffProfile-Child-1 img {
+        width: 151px;
+        height: 151px;
+    }
+    .StaffProfile-Child-1 h2 {
+        font-size: 14px;
+    }
+    .StaffProfile-Child-1 button {
+        height: 34px;
+        width: 148px;
+        border: none;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .StaffProfile-Main .StaffDifferentLink {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .StaffProfile-Main .accordion-item:first-of-type .accordion-button {
+        font-size: 14px;
+        padding-left: 6px;
+    }
+}
+@media (max-width:688px) {
+    .StaffProfile-Child-1 img {
+        width: 131px;
+        height: 131px;
+    }
+    .StaffProfile-Main .row>*{
+     padding-right: 0px !important;
+    }
+}
